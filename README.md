@@ -1,24 +1,23 @@
-# README
+In this RoR app, you can ask other people questions, answer
+their questions and leave comments.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+There is functionality for the user, moderator, and administrator.
 
-Things you may want to cover:
+There is also a separate page for site administrators.
 
-* Ruby version
+It use Rails 6, Ruby 3, Bootstap for CSS.
+***
+You will need Ruby (version 3.0.4).
 
-* System dependencies
+### Usage
 
-* Configuration
+**Bundle all gems**
 
-* Database creation
+```
+$ bundle install
+```
+**Launch**
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rails s
+```
